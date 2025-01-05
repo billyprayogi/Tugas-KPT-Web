@@ -19,8 +19,9 @@
 
 <body>
     <!-- Navbar -->
-<nav class="navbar navbar-expand-sm navbar-custom sticky-top">
+    <nav class="navbar navbar-expand-sm navbar-custom sticky-top">
       <div class="container-fluid">
+        <!-- Logo dan teks HIMTI UMB -->
         <a class="navbar-brand ms-2 d-flex align-items-center" href="#">
           <img
             src="assets/img/Logo Himti.png"
@@ -30,6 +31,8 @@
           />
           <span class="ms-4" style="font-size: 40px">HIMTI UMB</span>
         </a>
+    
+        <!-- Tombol Toggler -->
         <button
           class="navbar-toggler"
           type="button"
@@ -41,28 +44,35 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+    
+        <!-- Menu Navigasi -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto me-2">
             <li class="nav-item">
-              <a
-                class="nav-link fw-bold"
-                aria-current="page"
-                href="index.html"
-                >Home</a
-              >
+              <a class="nav-link fw-bold" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold " href="#about">About</a>
+              <a class="nav-link fw-bold" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link fw-bold" href="#berita">Berita</a>
             </li>
-            
             <li class="nav-item">
               <a class="nav-link fw-bold" href="#contact">Contact</a>
             </li>
           </ul>
-          <a class="nav-link fw-bold login" href="login-page.html"><button class="btn btn-primary me-3" type="button"><i class="fa fa-sign-out-alt" style="color:white; margin-right: 5px;"></i>Log in</button></a>
+          <!-- Tombol Login -->
+          <div class="d-flex justify-content-center mt-3 mt-sm-0">
+            <a class="nav-link fw-bold login" href="login-page.html">
+              <button class="btn btn-primary" type="button">
+                <i
+                  class="fa fa-sign-out-alt"
+                  style="color:white; margin-right: 5px;"
+                ></i>
+                Log in
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </nav>
