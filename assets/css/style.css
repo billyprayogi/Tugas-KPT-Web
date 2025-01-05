@@ -470,3 +470,26 @@ section {
   margin-top: 20px;
   margin-bottom: 10px;
 }
+/* button fromuir */
+.btn-formulir {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-image: linear-gradient(45deg, #0f2f76, #6a11cb, #2575fc);
+  background-size: 400% 400%;
+  transition: background-position 0.5s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-formulir:hover {
+  background-position: 100% 0;
+  transform: scale(1.05); 
+}
+
+.btn-formulir:active {
+  background-position: 0% 0; 
+  transform: scale(1); 
+}
