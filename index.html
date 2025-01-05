@@ -1,0 +1,481 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+  </head>
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- jQuery untuk AJAX -->
+<link rel="stylesheet" href="assets/css/style.css" />
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-sm navbar-custom sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-2 d-flex align-items-center" href="#">
+          <img
+            src="assets/img/Logo Himti.png"
+            style="width: 60px"
+            alt="Logo"
+            class="navbar-logo"
+          />
+          <span class="ms-4" style="font-size: 40px">HIMTI UMB</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto me-2">
+            <li class="nav-item">
+              <a
+                class="nav-link fw-bold"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold " href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#berita">Berita</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <a class="nav-link fw-bold login" href="login-page.html"><button class="btn btn-primary me-3" type="button"><i class="fa fa-sign-out-alt" style="color:white; margin-right: 5px;"></i>Log in</button></a>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir nav -->
+
+    <!-- carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="2"
+        ></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/3.jpeg" alt="Gambar1" class="d-block w-100" />
+          <div class="carousel-caption">
+            <h3>UPGRADING HIMTI</h3>
+            <p>Foto ketika materi berlangsung!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/foto.jpg" alt="Gambar2" class="d-block w-100" />
+          <div class="carousel-caption">
+            <h3>UPGRADING HIMTI</h3>
+            <p>Foto bersama angkatan!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/2.jpeg" alt="Gambar3" class="d-block w-100" />
+          <div class="carousel-caption">
+            <h3>UPGRADING HIMTI</h3>
+            <p>Foto bersama sebelum pulang!</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    <!-- Text and icon -->
+<!-- content empat teratas -->
+<section id="about">
+  <div class="from-empat-teratas">
+   <div class="text-center mb-3">
+    <h2 class="teks-4 mb-3">EMPAT TERATAS</h2> <!-- Mengurangi margin bawah -->
+        <p style="color: rgb(15, 47, 118);">Empat teratas adalah jabatan tertinggi yang ada di Organisasi HIMTi, dengan jabatan 1 periode.</p>
+   </div>
+    
+    <div class="container mb-4">
+        <div class="row g-4">
+      <!-- Kolom pertama -->
+      <div class="col-md-3">
+        <div class="card card-empat-top shadow-sm border-0">
+          <img src="assets/img/BillyP.jpg" class="rounded-top img-portrait" alt="Projects 1" />
+          <div class="card-body text-center">
+            <h1 class="fs-5 fw-bold" style="color:#0f2f76;">Ketua Umum</h1>
+            <p style="text-align: center ; margin-top: 5px; color:#0f2f76;">Billy Prayogi</p>
+          </div>
+        </div>
+      </div>
+      <!-- Kolom kedua -->
+      <div class="col-md-3">
+        <div class="card card-empat-top shadow-sm border-0">
+          <img src="assets/img/ferdi.jpeg" class="rounded-top img-portrait" alt="Projects 2" />
+          <div class="card-body text-center">
+            <h1 class="fs-5 fw-bold" style="color:#0f2f76;">Wakil Ketum</h1>
+            <p style="text-align: center ; margin-top: 5px; color:#0f2f76;">Ferdiyansah syahputra</p>
+          </div>
+        </div>
+      </div>
+      <!-- Kolom ketiga -->
+      <div class="col-md-3">
+        <div class="card card-empat-top shadow-sm border-0">
+          <img src="assets/img/B3.jpg" class="rounded-top img-portrait" alt="Projects 3" />
+          <div class="card-body text-center">
+            <h1 class="fs-5 fw-bold" style="color:#0f2f76;">Sekretaris Umum</h1>
+            <p style="text-align: center ; margin-top: 5px; color:#0f2f76;">Iche</p>
+          </div>
+        </div>
+      </div>
+      <!-- Kolom keempat -->
+      <div class="col-md-3">
+        <div class="card card-empat-top shadow-sm border-0">
+          <img src="assets/img/Aji.jpg" class="rounded-top img-portrait" alt="Projects 4" />
+          <div class="card-body text-center">
+            <h1 class="fs-5 fw-bold" style="color:#0f2f76;">Bendahara Umum</h1>
+            <p style="text-align: center ; margin-top: 5px; color:#0f2f76;">Rhamaji Fadlilah</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- tabel anggota -->
+<section>
+    <div class="container" style="box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); background-color: #0f2f76; border-radius: 5px;">
+      <div class="d-flex justify-content-between align-items-center mt-4">
+        <h2 class="text-data-anggota mb-1 text-white">Data Anggota</h2>
+        <form class="d-flex ms-auto" role="search" onsubmit="return false;">
+          <input
+            class="form-control me-2 mt-4"
+            type="search"
+            placeholder="Cari anggota"
+            id="search"
+            oninput="filterTable()"
+          />
+          <button class="btn btn-primary mt-4" type="button" onclick="filterTable()">Cari</button>
+        </form>
+      </div>
+      <div class="table-responsive mt-2">
+        <table class="table table-hover text-center mt-0" id="anggotaTable">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Profile</th>
+              <th>Nama</th>
+              <th>NPM</th>
+              <th>Angkatan</th>
+              <th>Email</th>
+              <th>Alamat</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Data contoh -->
+            <tr>
+              <td>1</td>
+              <td>
+                <img
+                  src="assets/img/Logo Himti.png"
+                  alt="Foto"
+                  style="width: 50px; height: 50px; border-radius: 50%;"
+                />
+              </td>
+              <td>John Doe</td>
+              <td>12345678</td>
+              <td>2020</td>
+              <td>john@example.com</td>
+              <td>Jakarta</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>
+                <img
+                  src="assets/img/Logo Himti.png"
+                  alt="Foto"
+                  style="width: 50px; height: 50px; border-radius: 50%;"
+                />
+              </td>
+              <td>Jane Smith</td>
+              <td>87654321</td>
+              <td>2021</td>
+              <td>jane@example.com</td>
+              <td>Bandung</td>
+            </tr>
+            <!-- Tambahkan data lainnya -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  
+ <!-- akhri table -->
+
+<!-- Berita -->
+<section id="berita">
+      <div class="container berita-section mt-5">
+        <h1 class="teks-3 text-center mb-5">Berita Terbaru Himti</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <!-- Card 1 -->
+          <div class="col">
+            <div class="card berita-card h-100">
+              <img
+                src="assets/img/B1.jpg"
+                class="card-img-top"
+                alt="Berita 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Judul Berita 1</h5>
+                <p class="card-text">
+                  Ini adalah ringkasan singkat tentang berita pertama. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem culpa hic sit dolorem, facere vero fugiat reprehenderit, illum minima pariatur dolorum, eius dolor debitis possimus in numquam quis sint commodi!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col">
+            <div class="card berita-card h-100">
+              <img
+                src="assets/img/B2.jpg"
+                class="card-img-top"
+                alt="Berita 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Judul Berita 2</h5>
+                <p class="card-text">
+                  Ini adalah ringkasan singkat tentang berita kedua. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita tenetur alias pariatur aperiam odit! Corporis, adipisci molestiae, explicabo ad eius iste porro nisi totam hic perspiciatis, architecto blanditiis culpa esse.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col">
+            <div class="card berita-card h-100">
+              <img
+                src="assets/img/B3.jpg"
+                class="card-img-top"
+                alt="Berita 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Judul Berita 3</h5>
+                <p class="card-text">
+                  Ini adalah ringkasan singkat tentang berita ketiga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae expedita qui deleniti corrupti autem, dolor cupiditate ullam praesentium recusandae reprehenderit obcaecati impedit laboriosam temporibus ad! Reprehenderit iusto quaerat quae consequatur.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col">
+            <div class="card berita-card h-100">
+              <img
+                src="assets/img/foto.jpg"
+                class="card-img-top"
+                alt="Berita 4"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Judul Berita 4</h5>
+                <p class="card-text">
+                  Ini adalah ringkasan singkat tentang berita keempat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus iure cupiditate laudantium tempore neque, in molestias tempora perspiciatis nulla repudiandae ullam alias excepturi, qui placeat veritatis consectetur obcaecati similique. Ut.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="col">
+            <div class="card berita-card h-100">
+              <img
+                src="assets/img/2.jpeg"
+                class="card-img-top"
+                alt="Berita 5"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Judul Berita 5</h5>
+                <p class="card-text">
+                  Ini adalah ringkasan singkat tentang berita kelima. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatem reprehenderit aperiam sint iure debitis sunt consectetur nemo, commodi corporis quam sit voluptates ad ipsum, odit quasi similique? Quibusdam, cupiditate.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="col">
+            <div class="card berita-card h-100">
+              <img
+                src="assets/img/3.jpeg"
+                class="card-img-top"
+                alt="Berita 6"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Judul Berita 6</h5>
+                <p class="card-text">
+                  Ini adalah ringkasan singkat tentang berita keenam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, dignissimos magni quos, cupiditate doloremque labore, molestiae nam modi facilis eaque consequuntur minima! Soluta quod voluptates quae nemo tempora, perferendis recusandae.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ <!-- akhir berita -->
+  <!-- table contact -->
+  <section id="contact">
+      <div class="container mt-5 contact-form">
+        <div class="form-wrapper">
+          <form>
+            <div class="form-title fw-bold">KONTAK KAMI</div>
+
+            <!-- Baris pertama (Nama di kiri, Email di kanan) -->
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name" class="form-label">Nama</label>
+                <input
+                  id="name"
+                  required
+                  type="text"
+                  class="form-input"
+                  placeholder="Masukan Nama"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  id="email"
+                  type="text"
+                  class="form-input"
+                  placeholder="Masukan Email"
+                />
+              </div>
+            </div>
+
+            <!-- Baris kedua (No HP di kiri, Upload di kanan) -->
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone" class="form-label">No Handphone</label>
+                <input
+                  id="phone"
+                  type="text"
+                  class="form-input"
+                  placeholder="Masukan No Handphone"
+                />
+              </div>
+              <div class="form-group">
+                <label for="file-upload" class="form-label">Upload File</label>
+                <input
+                  type="file"
+                  id="file-upload"
+                  class="form-input"
+                  multiple
+                  accept=".jpg, .jpeg, .png, .pdf"
+                />
+              </div>
+            </div>
+
+            <!-- Baris ketiga (Deskripsi dengan lebar penuh) -->
+            <div class="form-group full-width">
+              <label for="message" class="form-label">Pesan Kamu</label>
+              <textarea
+                id="message"
+                name="Description"
+                rows="4"
+                class="form-textarea"
+                placeholder="Masukan Pesan"
+              ></textarea>
+            </div>
+
+            <button type="button" onclick="getData()" class="form-button">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+<!-- ahkir table -->
+<footer style="background-color: #fefefe" class="text-white text-center pt-3 ">
+        <div class="mt-3">
+          <p class="sosial">Kunjungi Kami :</p></div>
+           <div class="icon">
+            <span class="fa-stack">
+                <i class="fa-solid fa-circle fa-stack-2x"></i>
+                <a href="https://www.instagram.com/himtiumb/" target="_blank">
+                    <i class="fa-brands fa-instagram  fa-stack-1x fa-inverse"></i>
+                </a>
+            </span>
+            <span class="fa-stack">
+                <i class="fa-solid fa-circle fa-stack-2x"></i>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fa-brands fa-facebook  fa-stack-1x fa-inverse"></i>
+                </a>
+            </span>
+            <span class="fa-stack">
+                <i class="fa-solid fa-circle fa-stack-2x"></i>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <i class="fa-brands fa-youtube fa-stack-1x fa-inverse"></i>
+                </a>
+            </span>
+            <span class="fa-stack">
+                <i class="fa-solid fa-circle fa-stack-2x"></i>
+                <a href="https://www.tiktok.com/@himti.umb" target="_blank">
+                    <i class="fa-brands fa-tiktok  fa-stack-1x fa-inverse"></i>
+                </a>
+        </div>
+        <p class="foot-p">© 2025 - Design by Billy Prayogi</p>
+</footer>
+
+  <script src="assets/js/index.js"></script>
+  <!-- Include Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  
+  </body>
+</html>
