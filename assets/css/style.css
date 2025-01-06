@@ -434,7 +434,6 @@ section {
   text-decoration: none;
   color: #ffffff;
   padding: 8px 12px;
-  border: 1px solid #0f2f76;
   border-radius: 4px;
   transition: background-color 0.3s, color 0.3s;
 }
