@@ -6,7 +6,6 @@ body {
   background-color: #ecf0f3;
 }
 
-/* Menambahkan beberapa penyesuaian jika diperlukan */
 .navbar-brand {
   display: flex;
   align-items: center;
@@ -14,7 +13,7 @@ body {
 }
 /* Navbar dengan efek shadow di bawah */
 .navbar-custom {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow di bagian bawah navbar */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   background-color: rgb(236, 240, 243);
 }
 
@@ -23,9 +22,9 @@ body {
 }
 
 .navbar-brand span {
-  font-size: 40px; /* Ukuran teks HIMTI Bengkulu */
-  font-weight: bold; /* Memberikan efek bold pada teks */
-  margin-left: 10px; /* Memberikan jarak antara logo dan teks */
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 10px;
   color: #0f2f76;
 }
 
@@ -36,24 +35,24 @@ body {
 
 /* Font untuk HIMTI Bengkulu */
 .navbar-brand span {
-  font-family: "PT Serif", serif; /* Menggunakan font PT Serif */
-  font-weight: bold; /* Mengatur teks menjadi tebal */
+  font-family: "PT Serif", serif;
+  font-weight: bold;
 }
 
 /* Font untuk menu navigasi */
 .navbar-nav .nav-link {
-  font-family: "Poppins", sans-serif; /* Menggunakan font Poppins */
-  font-weight: 600; /* Memberikan ketebalan teks */
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
   color: #0f2f76;
 }
 .navbar-nav .nav-link:hover {
-  color: rgb(255, 0, 0); /* Warna lebih gelap saat dihover */
+  color: rgb(255, 0, 0);
 }
 .text-message {
-  font-family: "PT Serif", serif; /* Font PT Serif */
-  font-size: 30px; /* Ukuran teks lebih besar */
-  color: #fefefe; /* Warna teks biru */
-  margin-bottom: 10px; /* Spasi antara teks dan ikon */
+  font-family: "PT Serif", serif;
+  font-size: 30px;
+  color: #fefefe;
+  margin-bottom: 10px;
 }
 
 .icon i:hover {
@@ -82,13 +81,13 @@ body {
 }
 
 .carousel-indicators button {
-  background-color: rgb(254, 254, 254); /* Memperjelas indikator */
-  border-radius: 50%; /* Membuat indikator bulat */
+  background-color: rgb(254, 254, 254);
+  border-radius: 50%;
 }
 .carousel-inner img {
-  max-height: 550px; /* Membatasi tinggi maksimum carousel */
-  object-fit: cover; /* Memastikan gambar terpotong dengan baik */
-  transition: transform 0.5s ease, opacity 0.5s ease; /* Tambahkan efek transisi halus */
+  max-height: 600px;
+  object-fit: cover;
+  transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
 /* Hover effect untuk gambar carousel */
@@ -113,21 +112,20 @@ body {
 
 /* Hover effect untuk indikator */
 .carousel-indicators button:hover {
-  opacity: 1; /* Indikator menjadi lebih jelas saat dihover */
-  transform: scale(1.2); /* Indikator sedikit membesar saat dihover */
+  opacity: 1;
+  transform: scale(1.2);
 }
 
 /* Styling untuk kontrol prev/next button */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: hwb(221 6% 54%); /* Warna background tombol kontrol */
-  border-radius: 30%; /* Membuat tombol kontrol menjadi bulat */
-  padding: 10px; /* Memberikan padding agar lebih besar */
+  background-color: hwb(221 6% 54%);
+  border-radius: 30%;
+  padding: 10px;
 }
-
 .carousel-control-prev-icon:hover,
 .carousel-control-next-icon:hover {
-  background-color: #ff0000; /* Warna berubah saat tombol kontrol dihover */
+  background-color: #ff0000;
 }
 
 /* styling table anggota */
@@ -150,21 +148,46 @@ td {
   font-size: medium;
 }
 .text-data-anggota {
-  font-family: "Poppins", sans-serif; /* Menetapkan font Poppins */
-  font-weight: bold; /* Menjadikan teks bold */
-  color: #ffffff; /* Mengubah warna teks menjadi putih */
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
 }
 /* end styling table */
 
+/* --------------------------------------------- */
+/* sty;ing 4 teratas */
 /* section empat teratas */
 section {
   padding-top: 4rem;
 }
 .img-portrait {
-  width: 100%; /* Gambar memenuhi lebar kolom */
-  height: 300px; /* Atur tinggi gambar */
-  object-fit: cover; /* Gambar disesuaikan tanpa distorsi */
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
+
+.card-empat-top {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+.card-empat-top:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(255, 255, 255, 0.15);
+}
+.from-empat-teratas {
+  padding: 50px 20px 40px; /* Padding atas, samping, dan bawah */
+  background-color: #ffffff; /* Warna latar putih */
+  border-radius: 15px; /* Sudut melengkung untuk tampilan modern */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.container.empat-teratas {
+  display: flex; /* Mengatur tata letak fleksibel */
+  flex-wrap: wrap; /* Membungkus item jika layar kecil */
+  justify-content: space-between; /* Memberi jarak antar item */
+  background-color: rgb(15, 47, 118); /* Warna latar kontainer */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan */
+}
+/* end styling */
 
 /* card login */
 .bg-image {
@@ -199,10 +222,10 @@ section {
 /* style contact */
 .contact-form {
   border-radius: 15px; /* Sudut melengkung */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Efek bayangan */
-  background-color: rgb(15, 47, 118); /* Warna latar belakang */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+  background-color: rgb(15, 47, 118);
   width: 100%;
-  max-width: 900px; /* Menentukan lebar maksimal untuk menjaga keseimbangan */
+  max-width: 900px;
   margin: auto;
 
   display: flex;
@@ -213,38 +236,38 @@ section {
 .form-wrapper {
   width: 100%;
   padding: 20px;
-  background-color: #fff; /* Background putih untuk form */
-  border-radius: 10px; /* Sudut melengkung */
+  background-color: #fff;
+  border-radius: 10px;
   box-sizing: border-box;
 }
 
 .form-title {
   margin-bottom: 40px;
   font-style: unset;
-  font-size: 28px; /* Ukuran font yang lebih besar */
+  font-size: 28px;
   text-align: center;
-  color: #0f2f76; /* Warna judul */
+  color: #0f2f76;
 }
 
 .form-label {
   font-size: 16px;
-  color: #0f2f76; /* Warna label */
-  margin-bottom: 5px; /* Jarak antara label dan input */
+  color: #0f2f76;
+  margin-bottom: 5px;
 }
 
 .form-input,
 .form-textarea {
   width: 100%;
   box-sizing: border-box;
-  padding: 12px; /* Padding lebih besar untuk kenyamanan pengguna */
-  background-color: rgb(255, 255, 255); /* Background putih pada input */
-  border: 1px solid #000000; /* Warna border */
+  padding: 12px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #000000;
   border-radius: 5px;
-  margin-bottom: 20px; /* Jarak antar elemen input */
+  margin-bottom: 20px;
 }
 
 .form-textarea {
-  height: 120px; /* Ukuran textarea lebih besar untuk kenyamanan */
+  height: 120px;
   resize: none;
 }
 
@@ -252,16 +275,16 @@ section {
   border: none;
   font-size: 18px;
   color: white;
-  background-color: #007bff; /* Warna tombol */
+  background-color: #007bff;
   border-radius: 10px;
   padding: 10px 20px;
   cursor: pointer;
   width: 100%;
-  transition: background-color 0.3s ease; /* Efek transisi saat hover */
+  transition: background-color 0.3s ease;
 }
 
 .form-button:hover {
-  background-color: #0056b3; /* Warna tombol saat dihover */
+  background-color: #0056b3;
 }
 
 .form-row {
@@ -281,10 +304,9 @@ section {
   width: 100%;
 }
 
-/* Responsif untuk layar kecil */
 @media screen and (max-width: 768px) {
   .form-row {
-    flex-direction: column; /* Menjadi kolom di layar kecil */
+    flex-direction: column;
   }
 
   .form-group {
@@ -294,21 +316,12 @@ section {
 
 @media screen and (max-width: 480px) {
   .contact-form {
-    padding: 20px; /* Padding lebih kecil di layar sangat kecil */
+    padding: 20px;
   }
 
   .form-title {
-    font-size: 24px; /* Ukuran font lebih kecil di layar kecil */
+    font-size: 24px;
   }
-}
-
-/* hover empat teratas */
-.card-empat-top {
-  transition: transform 0.3s ease, filter 0.3s ease;
-}
-.card-empat-top:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 10px rgba(255, 255, 255, 0.15);
 }
 
 /* styling user */
@@ -418,55 +431,51 @@ section {
 
 @media screen and (max-width: 768px) {
   .berita-section .berita-card {
-    width: 300px; /* Ukuran tetap di layar kecil */
+    width: 300px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .berita-section .berita-card {
-    width: 100%; /* Satu kartu per baris di layar sangat kecil */
+    width: 100%;
   }
 }
 /* akhir style berita */
 .input-group-text {
-  background-color: #f0f0f0; /* Warna latar belakang ikon */
+  background-color: #f0f0f0;
 }
 
 .input-group-text:hover {
-  background-color: #e0e0e0; /* Warna latar belakang saat dihover */
+  background-color: #e0e0e0;
 }
 
 #edit-jabatan {
   margin-left: 0px;
 }
 
-.from-empat-teratas {
-  padding-bottom: 70px;
-  padding-top: 30px;
-}
 #contact {
-  background-image: url("/assets/img/dropdown.jpg"); /* Ganti dengan path gambar yang kamu inginkan */
-  background-size: cover; /* Agar gambar menutupi seluruh area section */
-  background-position: center; /* Menempatkan gambar di tengah */
-  background-attachment: fixed; /* Membuat gambar tetap saat scroll */
+  background-image: url("/assets/img/dropdown.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   padding-bottom: 30px;
   padding-top: 50px;
 }
 #berita {
-  background-image: url("/assets/img/spiraldwon.jpg"); /* Ganti dengan path gambar yang kamu inginkan */
-  background-size: cover; /* Agar gambar menutupi seluruh area section */
-  background-position: center; /* Menempatkan gambar di tengah */
-  background-attachment: fixed; /* Membuat gambar tetap saat scroll */
+  background-image: url("/assets/img/spiraldwon.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 :root {
-  --secondaryTextColor: #6c757d; /* Warna teks abu-abu */
+  --secondaryTextColor: #6c757d;
 }
 
 .foot-p {
   color: var(--secondaryTextColor);
-  font-size: 16px; /* Contoh ukuran teks */
-  line-height: 1.5; /* Jarak antar baris */
-  text-align: center; /* Teks rata tengah */
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -486,10 +495,11 @@ section {
 
 .btn-formulir:hover {
   background-position: 100% 0;
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
 
 .btn-formulir:active {
-  background-position: 0% 0; 
-  transform: scale(1); 
+  background-position: 0% 0;
+  transform: scale(1);
 }
+/* --------------------------------------------------------------------------------------------- */
